@@ -4,3 +4,6 @@
 [submodule "Hummingbird-sitl_gazebo"]
 	path = Hummingbird-sitl_gazebo
 	url = https://github.com/utiasSTARS/Hummingbird-sitl_gazebo.git
+[submodule "Hummingbird-MCAD"]
+	path = Hummingbird-MCAD
+	url = https://github.com/utiasSTARS/Hummingbird-MCAD.git
