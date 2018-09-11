@@ -1,0 +1,6 @@
+[submodule "PX4-Humminngbird"]
+	path = PX4-Humminngbird
+	url = https://github.com/utiasSTARS/PX4-Humminngbird.git
+[submodule "Hummingbird-sitl_gazebo"]
+	path = Hummingbird-sitl_gazebo
+	url = https://github.com/utiasSTARS/Hummingbird-sitl_gazebo.git
