@@ -7,3 +7,6 @@
 [submodule "Hummingbird-MCAD"]
 	path = Hummingbird-MCAD
 	url = https://github.com/utiasSTARS/Hummingbird-MCAD.git
+[submodule "Hummingbird-Simulink"]
+	path = Hummingbird-Simulink
+	url = git@github.com:utiasSTARS/Hummingbird-Simulink.git
