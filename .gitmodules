@@ -10,3 +10,6 @@
 [submodule "Hummingbird-Simulink"]
 	path = Hummingbird-Simulink
 	url = git@github.com:utiasSTARS/Hummingbird-Simulink.git
+[submodule "BLHeli"]
+	path = BLHeli
+	url = git@github.com:yilun-wu/BLHeli.git
