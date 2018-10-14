@@ -47,7 +47,7 @@ This repo (`PX4-Hummingbird`) contains all of the flight code (controller, state
 Please e-mail Yilun Wu at <yl.wu@robotics.utias.utoronto.ca> for any questions regarding the resources and its usage released here.
   
 ## Citation
-If you use any of the resources in academic work, please cite the [relevant publication](TBA): 
+If you use any of the resources in academic work, please cite the [relevant publication](https://arxiv.org/abs/1810.03196): 
 
 ```bibtex
 @conference{hummingbird,
