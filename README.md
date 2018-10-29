@@ -29,7 +29,7 @@ SOFTWARE.
 
 
 ## Mechanical Components
-An overall mechanical CAD design document, 3D-print-ready model files, and a BOM (Bill of Material) required to assemble Hummingbird is provided under `Hummingbird-MCAD`. For details, refer to the README of the submodule repo.
+An overall mechanical CAD design document, 3D-print-ready model files, and a BOM (Bill of Materials) required to assemble Hummingbird is provided under `Hummingbird-MCAD`. For details, refer to the README of the submodule repo.
 
 ## SITL Simulation
 A set of Gazebo Plug-ins required for Hummingbird SITL simulation is provided under `Hummingbird-sitl_gazebo`. This submodule contains a gazebo model description file for the complete Hummingbird model as well as a calibrated aerodynamic model for the vehicle.
@@ -41,13 +41,13 @@ A high-fidelity MATLAB simulink model is released for easy, quick and accurate s
 Our modified BLHeli firmware released under `BLHeli` allows DYS-SN20A ESCs to send synchronous pulses at phase commutations to the flight computer which processes the timestamps of these signals to infer motor speeds. Please refer to the README of the repo for compiling and flashing ESC firmware. 
 
 ## PX4 Flight Code
-This repo (`PX4-Hummingbird`) contains all of the flight code (controller, state estimator, state machine, drivers, communication software) running onboard the flight computer. One may use QGroundControl (the default PX4 GCS), or any MAVlink-enabled clients such as MAVROS to communicate with the onboard computer to receive telemtry and send commands.
+The `PX4-Hummingbird` repo contains all of the flight code (controller, state estimator, state machine, drivers, communication software) running onboard the flight computer. One may use QGroundControl (the default PX4 GCS), or any MAVlink-enabled clients such as MAVROS to communicate with the onboard computer to receive telemetry and send commands.
 
 ## Contact
 Please e-mail Yilun Wu at <yl.wu@robotics.utias.utoronto.ca> for any questions regarding the resources and its usage released here.
   
 ## Citation
-If you use any of the resources in academic work, please cite the [relevant publication](https://arxiv.org/abs/1810.03196): 
+If you use any of these resources in academic work, please cite the [relevant publication](https://arxiv.org/abs/1810.03196): 
 
 ```bibtex
 @conference{hummingbird,
