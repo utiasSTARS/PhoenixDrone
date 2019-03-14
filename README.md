@@ -1,9 +1,9 @@
-# Hummingbird
-Open-Source Releases of Hummingbird Tail-sitter Project
+# PhoenixDrone
+Open-Source Releases of the PhoenixDrone Tail-sitter Project
 
 
 ## License
-Hummingbird is released under the MIT license.
+The PhoenixDrone is released under the MIT license.
 
 Copyright (c) <2018> [STARS Lab](http://www.starslab.ca/)
 
@@ -29,19 +29,19 @@ SOFTWARE.
 
 
 ## Mechanical Components
-An overall mechanical CAD design document, 3D-print-ready model files, and a BOM (Bill of Materials) required to assemble Hummingbird is provided under `Hummingbird-MCAD`. For details, refer to the README of the submodule repo.
+An overall mechanical CAD design document, 3D-print-ready model files, and a BOM (Bill of Materials) required to assemble PhoenixDrone is provided under `PhoenixDrone-MCAD`. For details, refer to the README of the submodule repo.
 
 ## SITL Simulation
-A set of Gazebo Plug-ins required for Hummingbird SITL simulation is provided under `Hummingbird-sitl_gazebo`. This submodule contains a gazebo model description file for the complete Hummingbird model as well as a calibrated aerodynamic model for the vehicle.
+A set of Gazebo Plug-ins required for PhoenixDrone SITL simulation is provided under `PhoenixDrone-sitl_gazebo`. This submodule contains a gazebo model description file for the complete PhoenixDrone model as well as a calibrated aerodynamic model for the vehicle.
 
 ## MATLAB Simulink Model
-A high-fidelity MATLAB simulink model is released for easy, quick and accurate simulation of the dynamics and motion control of Hummingbird. The models can be found under `Hummingbird-Simulink`.
+A high-fidelity MATLAB simulink model is released for easy, quick and accurate simulation of the dynamics and motion control of PhoenixDrone. The models can be found under `PhoenixDrone-Simulink`.
 
 ## BLHeli ESC Firmware
 Our modified BLHeli firmware released under `BLHeli` allows DYS-SN20A ESCs to send synchronous pulses at phase commutations to the flight computer which processes the timestamps of these signals to infer motor speeds. Please refer to the README of the repo for compiling and flashing ESC firmware. 
 
 ## PX4 Flight Code
-The `PX4-Hummingbird` repo contains all of the flight code (controller, state estimator, state machine, drivers, communication software) running onboard the flight computer. One may use QGroundControl (the default PX4 GCS), or any MAVlink-enabled clients such as MAVROS to communicate with the onboard computer to receive telemetry and send commands.
+The `PX4-PhoenixDrone` repo contains all of the flight code (controller, state estimator, state machine, drivers, communication software) running onboard the flight computer. One may use QGroundControl (the default PX4 GCS), or any MAVlink-enabled clients such as MAVROS to communicate with the onboard computer to receive telemetry and send commands.
 
 ## Contact
 Please e-mail Yilun Wu at <yl.wu@robotics.utias.utoronto.ca> for any questions regarding the resources and its usage released here.
@@ -50,10 +50,10 @@ Please e-mail Yilun Wu at <yl.wu@robotics.utias.utoronto.ca> for any questions r
 If you use any of these resources in academic work, please cite the [relevant publication](https://arxiv.org/abs/1810.03196): 
 
 ```bibtex
-@conference{hummingbird,
+@conference{PhoenixDrone,
 	Author = {Yilun Wu and Xintong Du and Rikky Duivenvoorden and Jonathan Kelly},
-  Title = {Hummingbird: An Open-Source Dual-Rotor Tail-Sitter Platform for Research and Education},
-	Booktitle = {2019 International Conference on Robotics and Automation (ICRA)},
-	Note = {Submitted, Under review},
+  Title = {The Phoenix Drone: An Open-Source Dual-Rotor Tail-Sitter Platform for Research and Education},
+	Booktitle = {Proceedings of IEEE International Conference on Robotics and Automation (ICRA'19)},
+	Note = {To Appear},
 	Year = {2019}}
 ```
