@@ -1,14 +1,14 @@
 [submodule "PX4-Humminngbird"]
-	path = PX4-Humminngbird
+	path = PX4-PhoenixDrone
 	url = https://github.com/utiasSTARS/PX4-Humminngbird.git
 [submodule "Hummingbird-sitl_gazebo"]
-	path = Hummingbird-sitl_gazebo
+	path = PhoenixDrone-sitl_gazebo
 	url = https://github.com/utiasSTARS/Hummingbird-sitl_gazebo.git
 [submodule "Hummingbird-MCAD"]
-	path = Hummingbird-MCAD
+	path = PhoenixDrone-MCAD
 	url = https://github.com/utiasSTARS/Hummingbird-MCAD.git
 [submodule "Hummingbird-Simulink"]
-	path = Hummingbird-Simulink
+	path = PhoenixDrone-Simulink
 	url = git@github.com:utiasSTARS/Hummingbird-Simulink.git
 [submodule "BLHeli"]
 	path = BLHeli
